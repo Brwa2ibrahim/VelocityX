@@ -10,6 +10,24 @@ environment:
   flutter: ">=2.0.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
+  velocity_x:
+    git:
+      url: https://github.com/iampawan/VelocityX.git
+      ref: master
+  table_calendar: ^3.1.1
+
+dependency_overrides:
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
   auto_size_text_pk: ^3.0.0
   flutter:
     sdk: flutter
@@ -23,9 +41,13 @@ dependencies:
   velocity_x:
     git:
       url: https://github.com/iampawan/VelocityX.git
-      ref: v3.3.0 # or any other valid branch or tag
-
-  table_calendar: ^3.1.1
+      ref: master
+      
+  velocity_x:
+    git:
+      url: https://github.com/iampawan/VelocityX.git
+      ref: v3.4.0
+      
 
 dev_dependencies:
   flutter_test:
