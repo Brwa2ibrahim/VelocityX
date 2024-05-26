@@ -23,9 +23,9 @@ dependencies:
   velocity_x:
     git:
       url: https://github.com/iampawan/VelocityX.git
-      ref: v3.3.0
+      ref: v3.3.0 # or any other valid branch or tag
 
-  table_calendar: ^3.0.8
+  table_calendar: ^3.1.1
 
 dev_dependencies:
   flutter_test:
